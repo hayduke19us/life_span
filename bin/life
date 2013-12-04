@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+$:.unshift File.expand_path('../../lib', __FILE__)
+require 'life'
+
+life = Life::Subject.new(age: 29, name: 'matt', sex: 'male')
+puts life.message
